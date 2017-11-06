@@ -1,0 +1,16 @@
+{
+  "name": "metisoft-facebook-client-friends-util",
+  "version": "0.0.1",
+  "description": "Metisoft, LLC - Client side utilities for Facebook friends data",
+  "main": "src/index.js",
+  "author": "James Brawn, Jr.",
+  "license": "MIT",
+  "scripts": {
+    "genDocs": "jsdoc src/ -p -r --verbose -t node_modules/minami -d doc/jsdoc -c doc/conf.json",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.4.3",
+    "minami": "^1.1.1"
+  }
+}

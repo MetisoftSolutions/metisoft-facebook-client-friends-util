@@ -1,0 +1,4 @@
+doc/jsdoc/**
+node_modules/**
+typings/**
+typings.json
